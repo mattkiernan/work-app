@@ -1,0 +1,10 @@
+[ 2015-09-27 18:16:41.9490 5249/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 18:16:41.9641 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 18:16:41.9647 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 18:16:41.9722 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 5251
+[ 2015-09-27 18:16:41.9784 5253/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 18:16:41.9792 5253/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 5253
+App 5266 stdout: 
+App 5280 stdout: 
+App 5283 stdout: 
+[ 2015-09-27 18:21:52.3529 5251/0x1095b0000 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 5280, application /Users/mattkiernan/metis/work-app/public (development)

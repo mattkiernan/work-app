@@ -1,2 +1,8 @@
-work-app.pem
-/tmp/*
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+/log/*
+!/log/.keep
+/tmp
+/ignorables

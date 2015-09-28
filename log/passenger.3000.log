@@ -8,3 +8,664 @@ App 5266 stdout:
 App 5280 stdout: 
 App 5283 stdout: 
 [ 2015-09-27 18:21:52.3529 5251/0x1095b0000 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 5280, application /Users/mattkiernan/metis/work-app/public (development)
+
+
+[ 2015-09-27 22:25:37.1353 5251/0x1098fe000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:25:37.1353 5253/0x10c5da000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:25:37.1360 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:25:37.1360 5253/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:25:37.1361 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 5283, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:25:37.1369 5253/0x10c5da000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:25:37.1369 5253/0x10c6e0000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:25:37.1372 5253/0x10c6e0000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:25:37.1374 5251/0x10a12e000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:25:37.1375 5251/0x10a12e000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:25:37.1381 5251/0x10a028000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1382 5251/0x10a028000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:25:37.1387 5253/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:25:37.1396 5251/0x109f22000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1402 5251/0x109f22000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:25:37.1401 5251/0x109c10000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1403 5251/0x109c10000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:25:37.1405 5251/0x1098fe000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1406 5251/0x1098fe000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:25:37.1408 5251/0x109d16000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1408 5251/0x109a04000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1408 5251/0x109d16000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:25:37.1408 5251/0x109a04000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:25:37.1409 5251/0x109b0a000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1409 5251/0x109b0a000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:25:37.1410 5251/0x109e1c000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:25:37.1410 5251/0x109e1c000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:25:37.1418 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 5283, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:25:37.5692 5251/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:25:41.5976 13762/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:25:41.6124 13764/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:25:41.6131 13764/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:25:41.6202 13764/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 13764
+[ 2015-09-27 22:25:41.6276 13766/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:25:41.6284 13766/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 13766
+App 13779 stdout: 
+App 13779 stdout: 
+[ 2015-09-27 22:25:45.6659 13764/0x110b22000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting up the preloader.
+  Error ID: 8d8f00a6
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-7th8gw.html
+  Message from application: dlopen(/Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle, 9): Library not loaded: libmysqlclient.18.dylib
+  Referenced from: /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle
+  Reason: image not found - /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle (LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/mysql2-0.4.1/lib/mysql2.rb:31:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/mysql2-0.4.1/lib/mysql2.rb:31:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in `block (2 levels) in require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in `block in require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler.rb:133:in `require'
+  /Users/mattkiernan/metis/work-app/config/application.rb:15:in `<top (required)>'
+  /Users/mattkiernan/metis/work-app/config/environment.rb:2:in `require'
+  /Users/mattkiernan/metis/work-app/config/environment.rb:2:in `<top (required)>'
+  /Users/mattkiernan/metis/work-app/config.ru:3:in `require'
+  /Users/mattkiernan/metis/work-app/config.ru:3:in `block in <main>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  /Users/mattkiernan/metis/work-app/config.ru:1:in `new'
+  /Users/mattkiernan/metis/work-app/config.ru:1:in `<main>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:107:in `eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:25:45.6733 13764/0x1101a9000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 8d8f00a6. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:30:09.7379 13766/0x102e34000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:30:09.7379 13764/0x1101a9000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:30:09.7379 13766/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:30:09.7380 13764/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:30:09.7381 13766/0x102e34000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:30:09.7381 13766/0x102f3a000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:30:09.7381 13766/0x102f3a000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:30:09.7388 13764/0x1101a9000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7389 13764/0x1101a9000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:30:09.7394 13764/0x1109d9000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:30:09.7394 13764/0x1103b5000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7395 13764/0x1103b5000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:30:09.7395 13764/0x1105c1000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7395 13766/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:30:09.7396 13764/0x1105c1000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:30:09.7396 13764/0x1108d3000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7396 13764/0x1108d3000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:30:09.7396 13764/0x1102af000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7397 13764/0x1102af000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:30:09.7395 13764/0x1109d9000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:30:09.7398 13764/0x1106c7000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7399 13764/0x1106c7000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:30:09.7399 13764/0x1107cd000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7399 13764/0x1107cd000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:30:09.7399 13764/0x1104bb000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:30:09.7400 13764/0x1104bb000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:30:09.7552 13764/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:30:13.2318 14307/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:30:13.2470 14309/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:30:13.2478 14309/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:30:13.2572 14309/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 14309
+[ 2015-09-27 22:30:13.2639 14311/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:30:13.2648 14311/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 14311
+App 14324 stdout: 
+App 14324 stdout: 
+[ 2015-09-27 22:30:17.3308 14309/0x107a2b000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting up the preloader.
+  Error ID: 552d9c64
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-ywyj4Q.html
+  Message from application: dlopen(/Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle, 9): Library not loaded: libmysqlclient.18.dylib
+  Referenced from: /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle
+  Reason: image not found - /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle (LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/mysql2-0.4.1/lib/mysql2.rb:31:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/mysql2-0.4.1/lib/mysql2.rb:31:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in `block (2 levels) in require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in `block in require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler.rb:133:in `require'
+  /Users/mattkiernan/metis/work-app/config/application.rb:15:in `<top (required)>'
+  /Users/mattkiernan/metis/work-app/config/environment.rb:2:in `require'
+  /Users/mattkiernan/metis/work-app/config/environment.rb:2:in `<top (required)>'
+  /Users/mattkiernan/metis/work-app/config.ru:3:in `require'
+  /Users/mattkiernan/metis/work-app/config.ru:3:in `block in <main>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  /Users/mattkiernan/metis/work-app/config.ru:1:in `new'
+  /Users/mattkiernan/metis/work-app/config.ru:1:in `<main>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:107:in `eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:30:17.3376 14309/0x1070b2000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 552d9c64. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:30:35.7661 14309/0x1070b2000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:30:35.7661 14311/0x108a72000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:30:35.7661 14309/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:30:35.7662 14311/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:30:35.7662 14311/0x108a72000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:30:35.7662 14311/0x108b78000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:30:35.7663 14311/0x108b78000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:30:35.7665 14309/0x1078e2000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:30:35.7666 14309/0x1078e2000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:30:35.7668 14311/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:30:35.7671 14309/0x1077dc000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7671 14309/0x1077dc000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:30:35.7672 14309/0x1072be000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7672 14309/0x1072be000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:30:35.7673 14309/0x1070b2000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7673 14309/0x1070b2000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:30:35.7675 14309/0x1071b8000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7675 14309/0x1071b8000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:30:35.7677 14309/0x1075d0000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7677 14309/0x1075d0000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:30:35.7676 14309/0x1076d6000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7677 14309/0x1076d6000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:30:35.7677 14309/0x1073c4000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7678 14309/0x1073c4000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:30:35.7678 14309/0x1074ca000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:30:35.7678 14309/0x1074ca000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:30:35.7808 14309/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:30:48.8228 14427/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:30:48.8379 14429/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:30:48.8386 14429/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:30:48.8455 14429/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 14429
+[ 2015-09-27 22:30:48.8521 14431/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:30:48.8528 14431/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 14431
+App 14444 stdout: 
+App 14444 stdout: 
+[ 2015-09-27 22:30:52.5362 14429/0x109797000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting up the preloader.
+  Error ID: 27e09704
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-xDCtYu.html
+  Message from application: dlopen(/Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle, 9): Library not loaded: libmysqlclient.18.dylib
+  Referenced from: /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle
+  Reason: image not found - /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/extensions/x86_64-darwin-13/2.1.0-static/mysql2-0.4.1/mysql2/mysql2.bundle (LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/mysql2-0.4.1/lib/mysql2.rb:31:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/mysql2-0.4.1/lib/mysql2.rb:31:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in `block (2 levels) in require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in `block in require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in `require'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bundler-1.7.0/lib/bundler.rb:133:in `require'
+  /Users/mattkiernan/metis/work-app/config/application.rb:15:in `<top (required)>'
+  /Users/mattkiernan/metis/work-app/config/environment.rb:2:in `require'
+  /Users/mattkiernan/metis/work-app/config/environment.rb:2:in `<top (required)>'
+  /Users/mattkiernan/metis/work-app/config.ru:3:in `require'
+  /Users/mattkiernan/metis/work-app/config.ru:3:in `block in <main>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.6.4/lib/rack/builder.rb:55:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/rack-1.6.4/lib/rack/builder.rb:55:in `initialize'
+  /Users/mattkiernan/metis/work-app/config.ru:1:in `new'
+  /Users/mattkiernan/metis/work-app/config.ru:1:in `<main>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:107:in `eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:107:in `preload_app'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:153:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:30:52.5427 14429/0x108e1e000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 27e09704. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:32:39.0692 14429/0x108e1e000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:32:39.0692 14431/0x10b929000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:32:39.0692 14429/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:32:39.0693 14431/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:32:39.0693 14431/0x10b929000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:32:39.0694 14431/0x10ba2f000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:32:39.0694 14431/0x10ba2f000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:32:39.0704 14429/0x108e1e000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0706 14431/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:32:39.0705 14429/0x108e1e000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:32:39.0707 14429/0x10964e000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:32:39.0707 14429/0x10964e000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:32:39.0707 14429/0x109548000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0708 14429/0x109548000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:32:39.0708 14429/0x108f24000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0708 14429/0x10933c000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0708 14429/0x108f24000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:32:39.0708 14429/0x10933c000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:32:39.0708 14429/0x10902a000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0709 14429/0x10902a000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:32:39.0709 14429/0x109442000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0709 14429/0x109442000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:32:39.0709 14429/0x109130000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0710 14429/0x109130000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:32:39.0710 14429/0x109236000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:32:39.0710 14429/0x109236000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:32:39.0840 14429/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:32:59.2574 14521/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:32:59.2729 14523/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:32:59.2736 14523/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:32:59.2809 14523/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 14523
+[ 2015-09-27 22:32:59.2878 14525/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:32:59.2886 14525/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 14525
+App 14538 stdout: 
+App 14551 stdout: 
+[ 2015-09-27 22:33:04.5425 14523/0x104ffd000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting the web application.
+  Error ID: 3d97060a
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-eKFRiR.html
+  Message from application: Specified 'mysql2' for database adapter, but the gem is not loaded. Add `gem 'mysql2'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/ruby_supportlib/phusion_passenger/loader_shared_helpers.rb:363:in `before_handling_requests'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:131:in `negotiate_spawn_command'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:155:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:33:04.5433 14523/0x104684000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 3d97060a. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:33:14.4999 14523/0x104684000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:33:14.4999 14525/0x10a3f1000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:33:14.4999 14525/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:33:14.4999 14523/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:33:14.5000 14525/0x10a3f1000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:33:14.5001 14525/0x10a4f7000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:33:14.5001 14525/0x10a4f7000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:33:14.5003 14523/0x104684000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5003 14523/0x104684000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:33:14.5005 14523/0x10478a000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5005 14523/0x10478a000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:33:14.5011 14523/0x104890000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5011 14523/0x104890000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:33:14.5011 14525/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:33:14.5013 14523/0x104eb4000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:33:14.5013 14523/0x104eb4000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:33:14.5013 14523/0x104dae000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5013 14523/0x104dae000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:33:14.5014 14523/0x104ca8000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5014 14523/0x104ca8000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:33:14.5017 14523/0x104a9c000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5017 14523/0x104a9c000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:33:14.5018 14523/0x104996000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5018 14523/0x104996000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:33:14.5018 14523/0x104ba2000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:33:14.5019 14523/0x104ba2000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:33:14.5931 14523/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:34:04.1646 15548/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:34:04.1802 15550/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:34:04.1809 15550/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:34:04.1888 15550/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 15550
+[ 2015-09-27 22:34:04.1963 15552/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:34:04.1970 15552/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 15552
+App 15565 stdout: 
+App 15579 stdout: 
+[ 2015-09-27 22:34:09.5544 15550/0x10b50e000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting the web application.
+  Error ID: 9fa4510e
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-oapRMP.html
+  Message from application: Specified 'mysql2' for database adapter, but the gem is not loaded. Add `gem 'mysql2'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/ruby_supportlib/phusion_passenger/loader_shared_helpers.rb:363:in `before_handling_requests'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:131:in `negotiate_spawn_command'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:155:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:34:09.5549 15550/0x10ab95000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 9fa4510e. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:36:28.5464 15550/0x10ab95000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:36:28.5464 15552/0x1009a0000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:36:28.5465 15552/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:36:28.5465 15550/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:36:28.5466 15552/0x1009a0000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:36:28.5466 15552/0x100aa6000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:36:28.5467 15552/0x100aa6000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:36:28.5472 15550/0x10ab95000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5473 15550/0x10ab95000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:36:28.5477 15550/0x10ada1000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5478 15550/0x10ada1000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:36:28.5478 15550/0x10b3c5000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:36:28.5478 15550/0x10b2bf000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5478 15550/0x10b3c5000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:36:28.5479 15550/0x10b2bf000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:36:28.5479 15552/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:36:28.5481 15550/0x10b0b3000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5481 15550/0x10b0b3000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:36:28.5482 15550/0x10aea7000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5482 15550/0x10afad000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5482 15550/0x10aea7000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:36:28.5483 15550/0x10afad000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:36:28.5483 15550/0x10b1b9000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5483 15550/0x10b1b9000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:36:28.5487 15550/0x10ac9b000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:36:28.5487 15550/0x10ac9b000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:36:28.6429 15550/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:39:29.7664 15859/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:39:29.7827 15861/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:39:29.7833 15861/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:39:29.7917 15861/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 15861
+[ 2015-09-27 22:39:29.7988 15863/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:39:29.7996 15863/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 15863
+App 15876 stdout: 
+App 15890 stdout: 
+[ 2015-09-27 22:39:35.6042 15861/0x10a2dd000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting the web application.
+  Error ID: efd46890
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-HGAUHg.html
+  Message from application: Specified 'mysql2' for database adapter, but the gem is not loaded. Add `gem 'mysql2'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/ruby_supportlib/phusion_passenger/loader_shared_helpers.rb:363:in `before_handling_requests'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:131:in `negotiate_spawn_command'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:155:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:39:35.6045 15861/0x109964000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is efd46890. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:39:48.1814 15861/0x109964000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:39:48.1814 15863/0x10d27e000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:39:48.1815 15861/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:39:48.1815 15863/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:39:48.1816 15863/0x10d27e000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:39:48.1816 15863/0x10d384000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:39:48.1816 15863/0x10d384000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:39:48.1821 15861/0x109a6a000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1821 15861/0x109a6a000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:39:48.1821 15861/0x109b70000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1821 15861/0x109b70000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:39:48.1823 15861/0x109964000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1824 15861/0x109964000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:39:48.1825 15863/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:39:48.1826 15861/0x109d7c000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1826 15861/0x109d7c000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:39:48.1826 15861/0x10a08e000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1826 15861/0x10a08e000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:39:48.1826 15861/0x10a194000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:39:48.1826 15861/0x10a194000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:39:48.1827 15861/0x109c76000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1827 15861/0x109c76000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:39:48.1828 15861/0x109f88000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1828 15861/0x109f88000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:39:48.1829 15861/0x109e82000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:39:48.1829 15861/0x109e82000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:39:48.2722 15861/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:41:34.2190 16816/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:41:34.2375 16818/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:41:34.2380 16818/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:41:34.2456 16818/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 16818
+[ 2015-09-27 22:41:34.2523 16820/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:41:34.2530 16820/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 16820
+App 16833 stdout: 
+App 16846 stdout: 
+[ 2015-09-27 22:41:39.0948 16818/0x106363000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting the web application.
+  Error ID: 9e445c8c
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-B89D5l.html
+  Message from application: Specified 'mysql2' for database adapter, but the gem is not loaded. Add `gem 'mysql2'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord). (Gem::LoadError)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/ruby_supportlib/phusion_passenger/loader_shared_helpers.rb:363:in `before_handling_requests'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:131:in `negotiate_spawn_command'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:155:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:41:39.0951 16818/0x1059ea000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 9e445c8c. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:41:44.6673 16818/0x1059ea000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:41:44.6673 16820/0x10c35d000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:41:44.6673 16818/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:41:44.6673 16820/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:41:44.6674 16820/0x10c35d000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:41:44.6674 16820/0x10c463000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:41:44.6675 16820/0x10c463000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:41:44.6681 16818/0x1059ea000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6681 16818/0x1059ea000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:41:44.6682 16818/0x105e02000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6682 16818/0x105e02000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:41:44.6685 16818/0x105bf6000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6686 16818/0x105bf6000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:41:44.6687 16820/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:41:44.6688 16818/0x105cfc000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6688 16818/0x105cfc000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:41:44.6688 16818/0x106114000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6689 16818/0x105af0000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6689 16818/0x106114000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:41:44.6689 16818/0x105af0000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:41:44.6689 16818/0x105f08000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6689 16818/0x105f08000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:41:44.6690 16818/0x10600e000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:41:44.6690 16818/0x10600e000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:41:44.6690 16818/0x10621a000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:41:44.6691 16818/0x10621a000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:41:44.7623 16818/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:43:41.8667 16950/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:43:41.8818 16952/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:43:41.8824 16952/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:43:41.8893 16952/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 16952
+[ 2015-09-27 22:43:41.8964 16954/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:43:41.8972 16954/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 16954
+App 16967 stdout: 
+App 16981 stdout: 
+[ 2015-09-27 22:43:46.8779 16952/0x10daa1000 age/Cor/App/Implementation.cpp:303 ]: Could not spawn process for application /Users/mattkiernan/metis/work-app: An error occured while starting the web application.
+  Error ID: 016f37e5
+  Error details saved to: /var/folders/3x/159mqcgd7kj3_bb9yxv7pl7w0000gn/T//passenger-error-37D9dS.html
+  Message from application: 'postgresql' database is not configured. Available: ["default", "adapter", "encoding", "pool", "development"] (ActiveRecord::AdapterNotSpecified)
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:248:in `resolve_symbol_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:231:in `resolve_string_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:213:in `resolve_connection'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:139:in `resolve'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:151:in `block in resolve_all'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:150:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:150:in `resolve_all'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:69:in `resolve'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/core.rb:46:in `configurations='
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:117:in `block (2 levels) in <class:Railtie>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/ruby_supportlib/phusion_passenger/loader_shared_helpers.rb:363:in `before_handling_requests'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:131:in `negotiate_spawn_command'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:155:in `<module:App>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /Users/mattkiernan/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-5.0.20/src/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-27 22:43:46.8783 16952/0x10d128000 age/Cor/Req/CheckoutSession.cpp:252 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is 016f37e5. Please see earlier logs for details about the error.
+
+
+[ 2015-09-27 22:44:36.7350 16952/0x10d128000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:44:36.7350 16954/0x10be17000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:44:36.7350 16954/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:44:36.7350 16952/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:44:36.7351 16954/0x10be17000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:44:36.7351 16954/0x10bf1d000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:44:36.7352 16954/0x10bf1d000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:44:36.7359 16952/0x10d334000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7360 16952/0x10d334000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:44:36.7364 16952/0x10d128000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7364 16952/0x10d128000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:44:36.7364 16952/0x10d958000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:44:36.7365 16954/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:44:36.7365 16952/0x10d958000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:44:36.7366 16952/0x10d43a000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7366 16952/0x10d852000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7366 16952/0x10d43a000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:44:36.7366 16952/0x10d852000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:44:36.7366 16952/0x10d540000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7367 16952/0x10d540000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:44:36.7368 16952/0x10d646000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7369 16952/0x10d646000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:44:36.7369 16952/0x10d74c000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7369 16952/0x10d74c000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:44:36.7370 16952/0x10d22e000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:44:36.7370 16952/0x10d22e000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:44:36.8304 16952/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:49:59.3758 17111/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:49:59.4019 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:49:59.4026 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:49:59.4167 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 17113
+[ 2015-09-27 22:49:59.4402 17115/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:49:59.4424 17115/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 17115
+App 17128 stdout: 
+App 17141 stdout: 
+
+
+[ 2015-09-27 22:50:12.4906 17115/0x10b53b000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:50:12.4906 17113/0x106e87000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:50:12.4907 17115/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:50:12.4907 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:50:12.4907 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 17141, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:50:12.4910 17115/0x10b53b000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:50:12.4917 17115/0x10b641000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:50:12.4919 17115/0x10b641000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:50:12.4921 17113/0x1076b7000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:50:12.4922 17113/0x1076b7000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:50:12.4924 17115/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:50:12.4930 17113/0x107093000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4930 17113/0x107093000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:50:12.4930 17113/0x1075b1000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4931 17113/0x1075b1000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:50:12.4931 17113/0x106e87000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4931 17113/0x106e87000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:50:12.4932 17113/0x107199000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4932 17113/0x107199000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:50:12.4932 17113/0x10729f000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4932 17113/0x10729f000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:50:12.4932 17113/0x106f8d000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4932 17113/0x106f8d000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:50:12.4933 17113/0x1073a5000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4933 17113/0x1073a5000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:50:12.4935 17113/0x1074ab000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:50:12.4935 17113/0x1074ab000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:50:12.4936 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 17141, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:50:12.7123 17113/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:56:00.3621 17478/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:56:00.3855 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:56:00.3863 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:56:00.3999 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 17480
+[ 2015-09-27 22:56:00.4172 17482/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:56:00.4195 17482/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 17482
+App 17495 stdout: 
+App 17508 stdout: 
+
+
+[ 2015-09-27 22:56:15.6546 17482/0x1031d3000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:56:15.6546 17480/0x10da83000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:56:15.6546 17482/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:56:15.6546 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:56:15.6547 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 17508, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:56:15.6547 17482/0x1031d3000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:56:15.6551 17482/0x1032d9000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:56:15.6551 17482/0x1032d9000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 22:56:15.6553 17480/0x10e2b3000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:56:15.6553 17480/0x10e2b3000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:56:15.6554 17480/0x10e1ad000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6554 17480/0x10e1ad000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:56:15.6555 17480/0x10dfa1000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6555 17480/0x10de9b000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6555 17480/0x10dfa1000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:56:15.6556 17480/0x10de9b000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:56:15.6556 17482/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:56:15.6557 17480/0x10e0a7000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6557 17480/0x10e0a7000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:56:15.6557 17480/0x10dc8f000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6557 17480/0x10dc8f000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:56:15.6559 17480/0x10db89000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6559 17480/0x10db89000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:56:15.6559 17480/0x10da83000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6559 17480/0x10da83000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:56:15.6560 17480/0x10dd95000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:56:15.6560 17480/0x10dd95000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:56:15.6560 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 17508, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:56:15.8748 17480/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-27 22:56:29.5546 17605/0x7fff7afc5300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 22:56:29.5705 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 22:56:29.5712 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 22:56:29.5786 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 17607
+[ 2015-09-27 22:56:29.5851 17609/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 22:56:29.5858 17609/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 17609
+App 17622 stdout: 
+App 17635 stdout: 
+
+[ 2015-09-27 22:56:41.2090 17609/0x105dc6000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:56:41.2090 17609/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:56:41.2091 17609/0x105dc6000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 22:56:41.2091 17609/0x105ecc000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:56:41.2092 17609/0x105ecc000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+
+[ 2015-09-27 22:56:41.2093 17607/0x10d26c000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 22:56:41.2093 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 22:56:41.2093 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 17635, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:56:41.2097 17609/0x7fff7afc5300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 22:56:41.2100 17607/0x10d57e000 Ser/Server.h:757 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2100 17607/0x10d57e000 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-27 22:56:41.2104 17607/0x10d890000 Ser/Server.h:757 ]: [ServerThr.7] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2104 17607/0x10d890000 Ser/Server.h:443 ]: [ServerThr.7] Shutdown finished
+[ 2015-09-27 22:56:41.2105 17607/0x10d78a000 Ser/Server.h:757 ]: [ServerThr.6] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2106 17607/0x10d478000 Ser/Server.h:757 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2106 17607/0x10d478000 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-27 22:56:41.2106 17607/0x10d78a000 Ser/Server.h:443 ]: [ServerThr.6] Shutdown finished
+[ 2015-09-27 22:56:41.2106 17607/0x10d996000 Ser/Server.h:757 ]: [ServerThr.8] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2106 17607/0x10d996000 Ser/Server.h:443 ]: [ServerThr.8] Shutdown finished
+[ 2015-09-27 22:56:41.2107 17607/0x10da9c000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 22:56:41.2108 17607/0x10da9c000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 22:56:41.2109 17607/0x10d684000 Ser/Server.h:757 ]: [ServerThr.5] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2109 17607/0x10d372000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2110 17607/0x10d684000 Ser/Server.h:443 ]: [ServerThr.5] Shutdown finished
+[ 2015-09-27 22:56:41.2110 17607/0x10d372000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 22:56:41.2110 17607/0x10d26c000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 22:56:41.2110 17607/0x10d26c000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 22:56:41.2111 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 17635, application /Users/mattkiernan/metis/work-app/public (development)
+[ 2015-09-27 22:56:41.4286 17607/0x7fff7afc5300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
